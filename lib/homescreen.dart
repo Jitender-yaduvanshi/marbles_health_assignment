@@ -245,7 +245,7 @@ class _FormComponentState extends State<FormComponent> {
       return false;
     }
     if (!isRequired && !isReadOnly && !isHidden) {
-      _showSnackBar(context, 'Please select one mode of settings checkbox.');
+      _showSnackBar(context, 'Please select one mode of settings.');
       return false;
     }
     return true;
