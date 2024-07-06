@@ -10,7 +10,7 @@ Widget submittedComponent(
 ) {
   return Expanded(
     child: Container(
-      margin:  EdgeInsets.only(bottom: height*0.01),
+      margin: EdgeInsets.only(bottom: height * 0.01),
       padding: EdgeInsets.only(left: height * 0.02, right: height * 0.02),
       width: width * 0.8,
       height: height * 0.2,
@@ -29,9 +29,7 @@ Widget submittedComponent(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.only(
-              top: 8.0,bottom: 2.0
-            ),
+            padding: const EdgeInsets.only(top: 8.0, bottom: 2.0),
             child: Row(
               children: [
                 RichText(
@@ -56,14 +54,15 @@ Widget submittedComponent(
                     height: height * 0.04,
                     width: width * 0.12,
                     decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey.shade300, width: 1.0),
+                      border:
+                          Border.all(color: Colors.grey.shade300, width: 1.0),
                       borderRadius: BorderRadius.circular(5),
                     ),
                     child: Center(
                       child: Text(
                         'Remove',
-                        style:
-                            TextStyle(color: Colors.red, fontSize: height * 0.02),
+                        style: TextStyle(
+                            color: Colors.red, fontSize: height * 0.02),
                       ),
                     ),
                   ),
@@ -86,7 +85,10 @@ Widget submittedComponent(
             ),
             child: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text(data.infoText,style: TextStyle(fontSize: height*0.02),),
+              child: Text(
+                data.infoText,
+                style: TextStyle(fontSize: height * 0.02),
+              ),
             ),
           ),
           Padding(
