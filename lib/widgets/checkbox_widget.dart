@@ -9,11 +9,11 @@ class CustomCheckbox extends StatelessWidget {
 
   const CustomCheckbox(
       {super.key,
-        required this.label,
-        required this.value,
-        required this.onChanged,
-        required this.borderColor,
-        required this.checkColor});
+      required this.label,
+      required this.value,
+      required this.onChanged,
+      required this.borderColor,
+      required this.checkColor});
 
   @override
   Widget build(BuildContext context) {
@@ -38,17 +38,19 @@ class CustomCheckbox extends StatelessWidget {
             ),
             child: value
                 ? Icon(
-              Icons.check,
-              size: 15,
-              color: checkColor,
-            )
+                    Icons.check,
+                    size: height * 0.02,
+                    color: checkColor,
+                  )
                 : null,
-          ),SizedBox(
+          ),
+          SizedBox(
             width: width * 0.01,
           ),
           Text(
             label,
-            style: const TextStyle(fontWeight: FontWeight.w600, fontSize: 15),
+            style:
+                TextStyle(fontWeight: FontWeight.w600, fontSize: height * 0.02),
           )
         ],
       ),
