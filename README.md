@@ -1,16 +1,25 @@
-# marbles_intern_assignment
+# Marbles Health Flutter Intern Assignment
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/titile.png)
 
-A new Flutter project.
+# Sample of UI
+## Initial Screen
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/initialScreen.png)
+### Initial full Screen
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/initial_full_screen.png)
+## Form
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/form_component.png)
+## Filled Form
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/filled_form.png)
+## No field Empty
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/no_field_empty.png)
+## No filling without selecting CheckBox
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/without_checking.png)
+## No submission without selecting setting type
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/setting_type.png)
+## Submitted Component
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/submitted_component.png)
+## Final Form Submitted
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/final_form_submit.png)
+## Final Form Submitted Optimized Screen
+![loan](https://github.com/Jitender-yaduvanshi/marbles_health_assignment/blob/main/screenshots/final_form_submit_optimized.png)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
